@@ -263,7 +263,7 @@ Token Invalid
 # Installation
 
 ```bash
-git clone https://github.com/yourusername/jwt-authentication-service-v3.git
+git clone https://github.com/ariefefendi/Secure-Authentication-Service-v3.git
 
 cd jwt-authentication-service-v3
 ```
@@ -285,6 +285,18 @@ ENCRYPTION_KEY=YOUR_SECRET_KEY
 ```
 
 Run the application.
+
+---
+
+# Database Schema (ERD)
+
+The complete Entity Relationship Diagram (ERD) is available online and provides an overview of the database structure, table relationships, and constraints.
+
+**View ERD:**
+
+https://dbdiagram.io/d/DB_Secure_Authentication-6a3e0044d0074fe75d29c45c
+
+---
 
 ---
 
