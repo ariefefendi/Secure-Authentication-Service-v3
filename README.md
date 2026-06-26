@@ -2,12 +2,12 @@
 
 > Secure Authentication Microservice built with **CodeIgniter 3**, **PHP**, and **MySQL** using a custom encrypted bearer token mechanism based on **AES-256-CBC** encryption and **HMAC-SHA256** integrity verification.
 
-![PHP]          (https://img.shields.io/badge/PHP-7.x+-777BB4?logo=php)
-![CodeIgniter]  (https://img.shields.io/badge/CodeIgniter-3-EF4223?logo=codeigniter)
-![MySQL]        (https://img.shields.io/badge/MySQL-5.7+-4479A1?logo=mysql)
-![REST API]     (https://img.shields.io/badge/API-REST-green)
-![AES-256]      (https://img.shields.io/badge/Encryption-AES--256-blue)
-![HMAC]         (https://img.shields.io/badge/HMAC-SHA256-orange)
+- ![PHP]          (https://img.shields.io/badge/PHP-7.x+-777BB4?logo=php)
+- ![CodeIgniter]  (https://img.shields.io/badge/CodeIgniter-3-EF4223?logo=codeigniter)
+- ![MySQL]        (https://img.shields.io/badge/MySQL-5.7+-4479A1?logo=mysql)
+- ![REST API]     (https://img.shields.io/badge/API-REST-green)
+- ![AES-256]      (https://img.shields.io/badge/Encryption-AES--256-blue)
+- ![HMAC]         (https://img.shields.io/badge/HMAC-SHA256-orange)
 
 ---
 
