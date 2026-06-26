@@ -163,11 +163,45 @@ Token becomes invalid
 ---
 
 # Sequence Diagram
-
 ```mermaid
 sequenceDiagram
-show img..
----
+
+Client->>API: POST /login
+
+API->>Database: Validate Username
+
+Database-->>API: User
+
+API->>API: Validate Password
+
+API->>API: Generate Token
+
+API->>Database: Save Bearer Token
+
+Database-->>API: Success
+
+API-->>Client: Token
+
+Client->>API: POST /auth/check-token
+
+API->>Database: Validate Token
+
+Database-->>API: Token Exists
+
+API->>API: Decrypt Token
+
+API->>API: Validate Signature
+
+API-->>Client: User Information
+
+Client->>API: POST /logout
+
+API->>Database: Remove Token
+
+Database-->>API: Success
+
+API-->>Client: Logout Success
+```
 
 # Security Design
 
